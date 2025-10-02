@@ -21,9 +21,9 @@ docker push usuario/checkpoint5:0.0.1
 
 # Orientações para o Docker Compose
 
-Docker compose up - Roda a aplicação
-Docker compose up -d - Roda a aplcação porém sem o log
-Docker compose stop - Para a aplicação
+Docker compose up - Roda a aplicação  
+Docker compose up -d - Roda a aplcação porém sem o log  
+Docker compose stop - Para a aplicação  
 
 ```
 docker compose up
