@@ -2,7 +2,6 @@
 
 Checkpoint 4 Microsserviços em Java
 
-
 # Docker Hub
 
 No docker hub, criar um repositório para armazenar as imagens
