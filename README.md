@@ -1,7 +1,6 @@
 # Checkpoint 4
 
-API Java para estudo de Spring Boot
-
+Checkpoint 4 Microsserviços em Java
 
 
 # Docker Hub
