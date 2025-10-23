@@ -34,12 +34,12 @@ public class ProductController {
     private ProductRepository productRepository;
 
 
-//     @GetMapping
-//     public List<ProductResponse> getAll() {
-//     return service.findAll().stream()
-//                  .map(p -> new ProductResponse().toDto(p))
-//                  .collect(Collectors.toList());
-// }
+    @GetMapping
+    public List<ProductResponse> getAll() {
+    return service.findAll().stream()
+                 .map(p -> new ProductResponse().toDto(p))
+                 .collect(Collectors.toList());
+}
 
 
 
