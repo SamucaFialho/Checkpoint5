@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/SamucaFialho/Checkpoint5/compare/v1.0.0...v1.1.0) (2025-10-23)
+
+
+### Features
+
+* fix cd ([ae91420](https://github.com/SamucaFialho/Checkpoint5/commit/ae914205d42e4bf3d06223b0bc9923b857d11b92))
+
 ## 1.0.0 (2025-10-23)
 
 
