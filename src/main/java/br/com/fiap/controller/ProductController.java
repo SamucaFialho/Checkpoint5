@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.fiap.dto.ProductRequestCreate;
 import br.com.fiap.dto.ProductResponse;
+import br.com.fiap.repository.CategoryRepository;
 import br.com.fiap.repository.ProductRepository;
 import br.com.fiap.service.ProductService;
 
@@ -26,6 +27,9 @@ import br.com.fiap.service.ProductService;
 @RequestMapping("/api/products")
 @CrossOrigin(origins = "*")
 public class ProductController {
+
+    @Autowired
+    private CategoryRepository categoryRepository;
 
     @Autowired
     private ProductService service;
